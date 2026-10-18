@@ -771,3 +771,50 @@ a {
         font-size: 1.8em;
     }
 }
+
+body.day {
+}
+
+body.night {
+    background-color: #1a1a2e;
+    color: #c0c0c0;
+}
+
+body.night .site-header {
+    background-color: #16213e;
+}
+
+body.night .hero-overlay {
+    background-color: rgba(22, 33, 62, 0.85);
+}
+
+body.night .hero-overlay h1,
+body.night .hero-slogan {
+    color: #e0e0e0;
+}
+
+body.night .about-content {
+    background-color: #16213e;
+}
+
+body.night .about-text-box {
+    color: #e0e0e0;
+}
+
+body.night .section-title {
+    color: #c0c0c0;
+}
+
+body.night .category-label,
+body.night .blog-label {
+    background-color: rgba(26, 26, 46, 0.85);
+    color: #e0e0e0;
+}
+
+body.night .site-footer {
+    background-color: #16213e;
+}
+
+body.night .gift-certs a {
+    color: #e0e0e0;
+}

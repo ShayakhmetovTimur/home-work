@@ -1,4 +1,10 @@
 <?php
+$hour = (int)date('H');
+if ($hour >= 8 && $hour < 20) {
+    $theme = 'day';
+} else {
+    $theme = 'night';
+}
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -8,7 +14,7 @@
     <title>EQUIP - Магазин Путешественника</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="<?php echo $theme; ?>">
     <header class="site-header">
         <div class="container header-inner">
             <div class="logo">
